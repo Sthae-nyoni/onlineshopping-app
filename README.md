@@ -1,4 +1,10 @@
-# create-svelte
+# About this repo
+This is a research operations school assignment. Our group decided to go with the topic "Relevance of an Ecommerce Platform in Zimbabwe". This repo
+contains the source code for the prototype. You can also preview the early build on this link https://onlinegrocery.vercel.app/. You can also build
+the project locally by following the steps below.
+
+## Prerequisites for building locally
+1 Node and npm v8 or greater
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
@@ -35,6 +41,4 @@ To create a production version of your app:
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment.
