@@ -6,6 +6,6 @@
 </script>
 
 <Navbar />
-<Container>
-	<ShopsSection classes="mt-20" />
+<Container classes="pb-20">
+	<ShopsSection classes="mt-32" />
 </Container>
