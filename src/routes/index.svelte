@@ -1,0 +1,1 @@
+<h2 class="text-4xl text-blue-400 text-center">Hello there and welcome</h2>
