@@ -1,1 +1,11 @@
-<h2 class="text-4xl text-blue-400 text-center">Hello there and welcome</h2>
+<script>
+	import Navbar from '../components/nav/Navbar.svelte';
+	import Container from '../components/util/Container.svelte';
+	import PromoSection from '../components/promo/PromoSection.svelte';
+	import ShopsSection from '../components/util/ShopsSection.svelte';
+</script>
+
+<Navbar />
+<Container classes="pb-20">
+	<ShopsSection classes="mt-32" />
+</Container>
