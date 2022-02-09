@@ -1,6 +1,6 @@
 # About this repo
 This is a research operations school assignment. Our group decided to go with the topic "Relevance of an Ecommerce Platform in Zimbabwe". This repo
-contains the source code for the prototype. You can also preview the early build on this link https://onlinegrocery.vercel.app/. You can also build
+contains the source code for the prototype. You can also preview the early build on this link https://onlineshoppingcenter.vercel.app/. You can also build
 the project locally by following the steps below.
 
 ## Prerequisites for building locally
