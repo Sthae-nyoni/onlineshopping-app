@@ -1,7 +1,7 @@
 import { writable } from "svelte/store";
-import type { ShopCardProps } from "../models/component_props";
+import type { ProductCardProps, ShopCardProps } from "../models/component_props";
 
-const test_shops:ShopCardProps[] =[
+const test_shops: ShopCardProps[] = [
     {
         name: 'Ok Mart',
         alt_tag: 'Ok supermarket',
@@ -86,5 +86,5 @@ const test_shops:ShopCardProps[] =[
 export const dark_theme = writable(true);
 
 export const shops = writable<ShopCardProps[]>(test_shops);
-
-
+export const categories = writable<{key: string, name: string}[]>([])
+export const product_data = writable<{ [category: string]: ProductCardProps[] }>(null);
