@@ -1,23 +1,29 @@
-<script>
-	import StoreCard from '../cards/StoreCard.svelte';
-	import Container from './Container.svelte';
-	export let classes = '';
-</script>
-
 <div class={classes}>
-	<h4 class="text-3xl tracking-wide font-semibold text-center capitalize mt-2">Browse stores</h4>
-	<Container classes="flex mt-2 grid grid-cols-3 gap-4">
-		<StoreCard />
-		<StoreCard />
-		<StoreCard />
-		<StoreCard />
-		<StoreCard />
-		<StoreCard />
-		<StoreCard />
-		<StoreCard />
-		<StoreCard />
-		<StoreCard />
-		<StoreCard />
-		<StoreCard />
+	<h4 class="text-3xl tracking-wide font-semibold text-center capitalize mt-2">Browse stores in your area</h4>
+	<Container classes="flex mt-8 grid grid-cols-3 gap-4">
+		{#each shops as shop, i (i)}
+			<ShopCard {...shop} />
+		{/each}
 	</Container>
 </div>
+
+<script lang="ts">
+	import Container from './Container.svelte';
+	import ShopCard from '../cards/ShopCard.svelte';
+	import type { ShopCardProps } from '../../models/component_props';
+
+	export let classes = '';
+	export let shops: ShopCardProps[];
+	// pick and pay
+	// Tilus
+	// Food for less
+	// powersales
+	// meikles
+	// edgars
+	// topics
+	// bata
+
+
+</script>
+
+
